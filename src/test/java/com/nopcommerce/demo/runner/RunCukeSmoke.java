@@ -10,11 +10,11 @@ import io.cucumber.testng.CucumberOptions;
        plugin = {"html:target/cucumber-reports/cucumber.html",
                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                "json:target/cucumber-reports/cucumber.json"},
-        tags = "@regression"
+        tags = "@smoke"
 
 
 )
-public class RunCukeTest extends AbstractTestNGCucumberTests {
+public class RunCukeSmoke extends AbstractTestNGCucumberTests {
 
 
 }
